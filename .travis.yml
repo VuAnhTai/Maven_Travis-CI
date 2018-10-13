@@ -7,7 +7,7 @@ cache:
 
 deploy:
   provider: script
-  script: "mvn deploy"
+  script: "mvn test"
   skip_cleanup: true
   on:
     tags: true
